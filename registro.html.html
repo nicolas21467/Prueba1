@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> registro                         </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">E-Commerce</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " href="iniciar sesion.html">iniciar sesion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current ="page" href="registro.html">registro</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ropa
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">chaleco</a></li>
+                  <li><a class="dropdown-item" href="#">pantalones</a></li>
+                  <li><a class="dropdown-item" href="#">zapatillas</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>  
+    <div>
+        <h1> registrarse: </h1>
+    </div> 
+    
+    <div class ="container fluid">
+        <div class="form-floating">
+            <input type="rut" class="form-control" id="floatinginput" placeholder="xxxxxxxx-x">
+            <label for="floatingrut">rut</label>
+        </div>       
+        <div class="form-floating">
+            <input type="usuario" class="form-control" id="floatinginput" placeholder="first name">
+            <label for="floatingnombre">nombre </label>
+          </div>
+          <div class="form-floating">
+            <input type="apellido" class="form-control" id="floatinginput" placeholder="last name">
+            <label for="floatingapellido">apellido</label>
+          </div>
+          <div class="form-floating">
+            <input type="telefono" class="form-control" id="floatinginput" placeholder="xxxxxxxxx">
+            <label for="floatingtelefono">telefono</label>
+          </div>          
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatinginput">email o correo</label>
+          </div>
+          <div class="form-floating">
+            <input type="fecha_nacimiento" class="form-control" id="floatinginput" placeholder="xx/xx/xxxx">
+            <label for="floatingfecha">fecha de nacimiento</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatinginput" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+          <div class="row g-2">
+
+  <div class="col-md">
+    <div class="form-floating">
+      <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+        <option selected>region</option>
+        <option value="1">R.Metropolitana</option>
+        <option value="2">valparaiso</option>
+        <option value="3">antofagasta</option>
+        <option value="4">araucania</option>
+        <option value="5">coquimbo</option>
+        <option value="6">atacama</option>
+      </select>
+      <label for="floatingSelectGrid">region</label>
+    </div>
+  </div>
+  <div class="form-floating">
+    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+      <option selected>Nv educacional</option>
+      <option value="1">Doctor,E.Media  </option>
+      <option value="2">Magíster</option>
+      <option value="3">Profesional</option>
+      <option value="4">E.media</option>
+      <option value="5">E.Básica</option>
+      <option value="6">Otra</option>
+    </select>
+    <label for="floatingSelectGrid">nv educacional</label>
+  </div>
+  <button type="button" class="btn btn-primary btn-sm">registrarse</button>
+
+</div>
+
+
+
+
+
+</body>
+
+
+</html>
